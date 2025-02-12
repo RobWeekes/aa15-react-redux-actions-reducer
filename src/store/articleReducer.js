@@ -4,7 +4,7 @@ const LOAD_ARTICLES = 'article/loadArticles';
 
 console.log('articles:', articles);
 
-// action creator function
+// action creator function - here I'm using fat arrow with an "implied return" in ()
 export const loadArticles = () => (
   {
     type: LOAD_ARTICLES,
